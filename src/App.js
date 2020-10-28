@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./card.module.css";
 
-function App() {
+const Card = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.card}>
+      <div className={styles.cardImage}>
+        <img
+          src="https://image.freepik.com/free-vector/neon-light-arrow-direction-perspective_1017-22033.jpg"
+          alt="Orange"
+        />
+      </div>
+
+      <div class={styles.cardBody}>
+        <div class={styles.cardDate}>
+          <time>26 Février 1991</time>
+        </div>
+
+        <div class={styles.cardTitle}>
+          <h3>Lorem Ipsum</h3>
+        </div>
+
+        <div class={styles.cardExceprt}>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            voluptatibus autem consectetur voluptate facere at, omnis ab optio
+            placeat officiis! Animi modi harum enim quia veniam consectetur unde
+            autem inventore.
+          </p>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Card;

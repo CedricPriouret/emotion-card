@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
+
+body {
+  background: #eee;
+  padding: 40px 0px;
+}
+
+.card {
+  width: 400px;
+  border-radius: 20px;
+  margin: 0px auto;
+  background-color: white;
+  box-shadow: 0px 5px 20px #555;
+}
+
+.cardImage {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardBody {
+  text-align: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.cardDate {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.cardTitle,
+.cardExceprt {
+  font-family: "Playfair Display", serif;
+}
+
+.cardDate,
+.cardTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cardDate,
+.cardExcerpt {
+  color: #777;
+}
