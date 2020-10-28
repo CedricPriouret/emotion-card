@@ -10,16 +10,16 @@ const Card = () => {
         />
       </div>
 
-      <div class={styles.cardBody}>
-        <div class={styles.cardDate}>
+      <div className={styles.cardBody}>
+        <div className={styles.cardDate}>
           <time>26 Février 1991</time>
         </div>
 
-        <div class={styles.cardTitle}>
+        <div className={styles.cardTitle}>
           <h3>Lorem Ipsum</h3>
         </div>
 
-        <div class={styles.cardExceprt}>
+        <div className={styles.cardExceprt}>
           <p>
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
